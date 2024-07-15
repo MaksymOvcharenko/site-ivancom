@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "page40680485.html",
+            "src": "./page40680485.html",
             "use": "@vercel/static"
         }
     ],
