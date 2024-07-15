@@ -1,0 +1,173 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page40680485.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^tipy$ page41945117.html [NC]
+RewriteRule ^tipy/$ page41945117.html [NC]
+
+RewriteRule ^testtest$ page39787221.html [NC]
+RewriteRule ^testtest/$ page39787221.html [NC]
+
+RewriteRule ^silver$ page40769047.html [NC]
+RewriteRule ^silver/$ page40769047.html [NC]
+
+RewriteRule ^gold$ page40347481.html [NC]
+RewriteRule ^gold/$ page40347481.html [NC]
+
+RewriteRule ^platinum$ page40348569.html [NC]
+RewriteRule ^platinum/$ page40348569.html [NC]
+
+RewriteRule ^bikes$ page41112169.html [NC]
+RewriteRule ^bikes/$ page41112169.html [NC]
+
+RewriteRule ^animals$ page41113200.html [NC]
+RewriteRule ^animals/$ page41113200.html [NC]
+
+RewriteRule ^liky$ page41750360.html [NC]
+RewriteRule ^liky/$ page41750360.html [NC]
+
+RewriteRule ^removes$ page41745633.html [NC]
+RewriteRule ^removes/$ page41745633.html [NC]
+
+RewriteRule ^adresses$ page41540707.html [NC]
+RewriteRule ^adresses/$ page41540707.html [NC]
+
+RewriteRule ^courier_delivery$ page41749329.html [NC]
+RewriteRule ^courier_delivery/$ page41749329.html [NC]
+
+RewriteRule ^delivery_from_ua$ page41749840.html [NC]
+RewriteRule ^delivery_from_ua/$ page41749840.html [NC]
+
+RewriteRule ^karjera$ page42170438.html [NC]
+RewriteRule ^karjera/$ page42170438.html [NC]
+
+RewriteRule ^rezina$ page41538985.html [NC]
+RewriteRule ^rezina/$ page41538985.html [NC]
+
+RewriteRule ^clients_card$ page42170778.html [NC]
+RewriteRule ^clients_card/$ page42170778.html [NC]
+
+RewriteRule ^carreer$ page42273329.html [NC]
+RewriteRule ^carreer/$ page42273329.html [NC]
+
+RewriteRule ^b2b$ page42328625.html [NC]
+RewriteRule ^b2b/$ page42328625.html [NC]
+
+RewriteRule ^team$ page42464073.html [NC]
+RewriteRule ^team/$ page42464073.html [NC]
+
+RewriteRule ^price_ua_world$ page42484276.html [NC]
+RewriteRule ^price_ua_world/$ page42484276.html [NC]
+
+RewriteRule ^world_ua$ page42484277.html [NC]
+RewriteRule ^world_ua/$ page42484277.html [NC]
+
+RewriteRule ^posylki_switua$ page42484598.html [NC]
+RewriteRule ^posylki_switua/$ page42484598.html [NC]
+
+RewriteRule ^posylki_plua$ page42485619.html [NC]
+RewriteRule ^posylki_plua/$ page42485619.html [NC]
+
+RewriteRule ^posylki_svitua$ page42553619.html [NC]
+RewriteRule ^posylki_svitua/$ page42553619.html [NC]
+
+RewriteRule ^velosypedy_plua$ page42488729.html [NC]
+RewriteRule ^velosypedy_plua/$ page42488729.html [NC]
+
+RewriteRule ^kolesa_plua$ page42492909.html [NC]
+RewriteRule ^kolesa_plua/$ page42492909.html [NC]
+
+RewriteRule ^pereizd_plua$ page42493719.html [NC]
+RewriteRule ^pereizd_plua/$ page42493719.html [NC]
+
+RewriteRule ^twaryny_plua$ page42493820.html [NC]
+RewriteRule ^twaryny_plua/$ page42493820.html [NC]
+
+RewriteRule ^tipy_plua$ page42494367.html [NC]
+RewriteRule ^tipy_plua/$ page42494367.html [NC]
+
+RewriteRule ^dokumenty_plua$ page42494492.html [NC]
+RewriteRule ^dokumenty_plua/$ page42494492.html [NC]
+
+RewriteRule ^form_pl_pl$ page42550037.html [NC]
+RewriteRule ^form_pl_pl/$ page42550037.html [NC]
+
+RewriteRule ^success_kurier$ page42565558.html [NC]
+RewriteRule ^success_kurier/$ page42565558.html [NC]
+
+RewriteRule ^success_viddilennia$ page42565896.html [NC]
+RewriteRule ^success_viddilennia/$ page42565896.html [NC]
+
+RewriteRule ^delivery_pl_pl$ page42565929.html [NC]
+RewriteRule ^delivery_pl_pl/$ page42565929.html [NC]
+
+RewriteRule ^success_animals_z_ua$ page42566002.html [NC]
+RewriteRule ^success_animals_z_ua/$ page42566002.html [NC]
+
+RewriteRule ^success_animals_do_ua$ page42566003.html [NC]
+RewriteRule ^success_animals_do_ua/$ page42566003.html [NC]
+
+RewriteRule ^success_pereizd_z_ua$ page42566271.html [NC]
+RewriteRule ^success_pereizd_z_ua/$ page42566271.html [NC]
+
+RewriteRule ^https/ivancom_goldtildaws/success_pereizd_do_ua$ page42566270.html [NC]
+RewriteRule ^https/ivancom_goldtildaws/success_pereizd_do_ua/$ page42566270.html [NC]
+
+RewriteRule ^success_kariera$ page42566366.html [NC]
+RewriteRule ^success_kariera/$ page42566366.html [NC]
+
+RewriteRule ^success_b2b$ page42566367.html [NC]
+RewriteRule ^success_b2b/$ page42566367.html [NC]
+
+RewriteRule ^success_drugs$ page42566575.html [NC]
+RewriteRule ^success_drugs/$ page42566575.html [NC]
+
+RewriteRule ^success_bike$ page42566619.html [NC]
+RewriteRule ^success_bike/$ page42566619.html [NC]
+
+RewriteRule ^success_kolesa$ page42566621.html [NC]
+RewriteRule ^success_kolesa/$ page42566621.html [NC]
+
+RewriteRule ^success_silver$ page42566785.html [NC]
+RewriteRule ^success_silver/$ page42566785.html [NC]
+
+RewriteRule ^success_gold$ page42566786.html [NC]
+RewriteRule ^success_gold/$ page42566786.html [NC]
+
+RewriteRule ^success_platinum$ page42566787.html [NC]
+RewriteRule ^success_platinum/$ page42566787.html [NC]
+
+RewriteRule ^success_world_ua$ page42567464.html [NC]
+RewriteRule ^success_world_ua/$ page42567464.html [NC]
+
+RewriteRule ^rozklad$ page42654064.html [NC]
+RewriteRule ^rozklad/$ page42654064.html [NC]
+
+RewriteRule ^faq$ page42654131.html [NC]
+RewriteRule ^faq/$ page42654131.html [NC]
+
+RewriteRule ^poslugi$ page42656601.html [NC]
+RewriteRule ^poslugi/$ page42656601.html [NC]
+
+RewriteRule ^brandua$ page45586195.html [NC]
+RewriteRule ^brandua/$ page45586195.html [NC]
+
+RewriteRule ^formtest2024$ page49280561.html [NC]
+RewriteRule ^formtest2024/$ page49280561.html [NC]
+
+RewriteRule ^telegram$ page49277641.html [NC]
+RewriteRule ^telegram/$ page49277641.html [NC]
+
+RewriteRule ^pl-pl$ page51861363.html [NC]
+RewriteRule ^pl-pl/$ page51861363.html [NC]
+
+
